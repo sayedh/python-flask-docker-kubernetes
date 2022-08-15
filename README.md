@@ -1,4 +1,4 @@
-# Deploying a Flask app with Docker into Kubernetes Pods with Load Balancing
+# Deploying a Dockerized Flask app into Kubernetes Pods with Load Balancing
 In this project I used a simple Flask app that lists the instance ID, dockerized it, and put it into pods that are load balanced. So when the Flask app is refreshed you can see that it is a new instance ID meaning that it changed pods. 
 ![Pods](https://user-images.githubusercontent.com/30685241/184702096-d04faf9a-bebb-4ce6-8a44-7725742d0265.jpg)
 
